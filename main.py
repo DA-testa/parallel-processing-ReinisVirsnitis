@@ -11,7 +11,7 @@ def parallel_processing(n, m, data):
             if t[i] == 0:
                 output.append((i, laiks))
                 t[i] = data[0] - 1
-                data.pop
+                data.pop(0)
             else:
                 t[i] = t[i] - 1
         laiks = laiks + 1
